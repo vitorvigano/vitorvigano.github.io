@@ -1,2 +1,1 @@
-# vitorvigano.github.io
-Hey you!
+Thanks for your personal data.
