@@ -1,7 +1,7 @@
 ---
 title: "Designing for Engagement in Digital Health"
 description: "In digital health, the hardest problem isn't the data — it's getting people to actually use the system."
-pubDatetime: 2026-15-22
+pubDatetime: 2026-03-08
 tags: ["health-tech", "product", "software-architecture", "gamification"]
 featured: false
 draft: false

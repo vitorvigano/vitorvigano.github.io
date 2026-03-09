@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Datetime from "@/components/Datetime.astro";
+import { SITE } from "@/config";
+
+const notes = await getCollection("notes", ({ data }) => !data.draft);
+const sortedNotes = notes.sort(
+  (a, b) =>
+    new Date(b.data.pubDatetime).getTime() -
+    new Date(a.data.pubDatetime).getTime()
+);
+---
+
+<Layout title={`Notes | ${SITE.title}`}>
+  <Header />
+  <Main
+    pageTitle="Notes"
+    pageDesc="Short technical notes and TIL-style snippets."
+  >
+    <ul>
+      {
+        sortedNotes.map(note => (
+          <li class="my-6">
+            <a
+              href={`/notes/${note.id}`}
+              class:list={[
+                "inline-block text-lg font-medium text-accent",
+                "decoration-dashed underline-offset-4 hover:underline",
+                "focus-visible:no-underline focus-visible:underline-offset-0",
+              ]}
+            >
+              <h2>{note.data.title}</h2>
+            </a>
+            <Datetime pubDatetime={note.data.pubDatetime} />
+            {note.data.description && <p>{note.data.description}</p>}
+          </li>
+        ))
+      }
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
