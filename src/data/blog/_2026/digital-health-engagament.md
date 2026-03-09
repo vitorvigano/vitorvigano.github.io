@@ -78,7 +78,7 @@ Too difficult, and the user abandons it.
 
 ## Lessons from gamification
 
-While researching ways to improve engagement, I revisited the book *Gamification by Design* by Gabe Zichermann and Christopher Cunningham.
+While researching ways to improve engagement, I revisited the book _Gamification by Design_ by Gabe Zichermann and Christopher Cunningham.
 
 One idea from the book that resonated with me is that gamification is not really about points or badges.
 

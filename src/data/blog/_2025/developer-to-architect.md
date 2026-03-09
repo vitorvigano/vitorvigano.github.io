@@ -14,7 +14,7 @@ I spent years thinking about performance, UI responsiveness, API integrations, a
 
 But over time, something started to change in the way I looked at software.
 
-Instead of thinking only about *how to implement a feature*, I became increasingly interested in questions like:
+Instead of thinking only about _how to implement a feature_, I became increasingly interested in questions like:
 
 - Why are we building this feature?
 - How does this system evolve over time?
@@ -63,7 +63,7 @@ Every decision is connected to things like:
 - product iteration cycles
 - market uncertainty
 
-Architecture is not about designing the *perfect system*. It's about designing the **right system for the current stage of the company**.
+Architecture is not about designing the _perfect system_. It's about designing the **right system for the current stage of the company**.
 
 Sometimes the correct architecture decision is actually the simplest one.
 
@@ -108,7 +108,7 @@ As developers, we are used to controlling the details:
 
 Architecture requires letting go of some of that.
 
-Your role becomes less about *writing the code* and more about *creating the environment where good code can happen*.
+Your role becomes less about _writing the code_ and more about _creating the environment where good code can happen_.
 
 That includes:
 
