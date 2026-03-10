@@ -4,7 +4,7 @@ title: "Core Banking in Transition: From Mainframes to Hybrid Cloud"
 description: "Core banking systems don't get replaced — they evolve. Notes from working across mainframes, hybrid clouds, and the slow migrations in between."
 pubDatetime: 2025-03-10
 tags: ["banking", "architecture", "mainframe", "cloud", "core-banking"]
-featured: true
+featured: false
 draft: false
 ---
 
