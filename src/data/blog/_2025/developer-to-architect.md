@@ -4,7 +4,7 @@ title: "From Mobile Developer to Software Architect: The Challenges of Changing 
 description: "Reflections on the transition from building features to designing systems."
 pubDatetime: 2025-02-18
 tags: ["career", "software-architecture", "mobile", "engineering"]
-featured: false
+featured: true
 draft: false
 ---
 
